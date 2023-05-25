@@ -1,5 +1,5 @@
 * {
-    background: #F3F5FC;
+    background: #051449;
     font-family: Inter;
     font-size: 32px;
     font-weight: 400;
@@ -10,8 +10,8 @@
 .logo {
     padding: 10px;
     margin-left: 10px;
-    height: 48px;
-    width: 20%;
+    height: 100px;
+    width: 100px;
     left: 40px;
     top: 40px;
     border-radius: 0px;
@@ -26,13 +26,13 @@ main {
 
 .areadetexto {
     border: none;
-    color: #3a3871;
+    color: lightgray;
     margin-top: 90px;
     text-transform: lowercase;
 }
 
 ::placeholder {
-    color: #0a3871;
+    color: lightgray;
 }
 
 .areadetexto:focus {
@@ -41,7 +41,6 @@ main {
 
 .mensaje {
     background: white;
-    background-image: url("imagenes/Muñeco.png");
     background-repeat: no-repeat;
     border: none;
     border-radius: 24px;
@@ -65,7 +64,7 @@ main {
 
 
 .boton-desencrpitar {
-    background: #d8dfe8;
+    background-color: lightblue;
     border: 1px solid #0a3871;
     border-radius: 24px;
     color: #0a3871;
@@ -83,10 +82,10 @@ main {
 }
 
 .boton-encriptar {
-    background-color: #0a3871;
+    background-color: lightblue;
     border: 1px solid #0a3871;
     border-radius: 24px;
-    color: white;
+    color: #0a3871;
     cursor: pointer;
     height: 67px;
     width: 328px;
@@ -99,6 +98,7 @@ main {
 }
 
 .copiar {
+    background-color: lightblue;
     border: 1px solid #0a3871;
     border-radius: 24px;
     color: #0a3871;
@@ -117,6 +117,6 @@ main {
 }
 
 .instrucciones {
-    color: gray;
+    color: white;
     font-size: 18px;
 }

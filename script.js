@@ -39,4 +39,6 @@ function desencriptar(stringDesencriptado) {
     return stringDesencriptado;
 }
 
-  
+  function copiartexto(){
+    var contenido = document.querySelector()
+  }

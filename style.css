@@ -32,7 +32,7 @@ main {
 }
 
 ::placeholder {
-    color: lightgray;
+    color: #0a3871;
 }
 
 .areadetexto:focus {

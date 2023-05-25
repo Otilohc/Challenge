@@ -39,6 +39,9 @@ function desencriptar(stringDesencriptado) {
     return stringDesencriptado;
 }
 
-  function copiartexto(){
-    var contenido = document.querySelector()
+  function copiar(){
+    var mensaje = document.querySelector(".mensaje");
+    mensaje.select();
+    document.execCommand("copy");
+    alert("copiado")
   }
